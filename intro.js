@@ -78,9 +78,7 @@ let myUndefined;
 // myNumber = 10;
 // myString = "Brooklynn Moor";
 // myBoolean = true;
-// myUndefined = Birthday;
-
-
+// myUndefined = TestUndefined;
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
@@ -91,12 +89,12 @@ let x = (false == 0);
 
 // 12.
 let y = (false == "");
-// A. false
+// A. true
 
 
 // 13.
 let z = (0 == "");
-// A. false
+// A. true
 
 
 // 14.
@@ -104,14 +102,14 @@ let a = (null == null);
 // A. true
 
 
-// 25.
+// 15.
 let b = (undefined == undefined);
-// A. false
+// A. true
 
 
 // 16.
 let c = (undefined == null);
-// A. false
+// A. true
 
 
 // 17.
@@ -121,7 +119,7 @@ let d = (null == false);
 
 // 18.
 let e = (NaN == null);
-// A. true
+// A. false
 
 
 // 19.
@@ -152,7 +150,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A: "True!"
+// A: "False!"
 
 
 // 22.
@@ -182,7 +180,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A: "True!"
+// A: "False!"
 
 
 // 25.
